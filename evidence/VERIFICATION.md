@@ -7,14 +7,14 @@
 - sklearnの参照出力と標準Python推論を90入力で照合。最大絶対誤差 3.331e-16。
 - Python 3.10文法の構文検査、bash -n：PASS。
 
-## 実行できていない範囲
-- このWORKにdocker CLI/daemon、ROS 2、Gazeboはない。手元Windows PCへ接続されていない。
+## この検証に含まれない範囲
+- 検証時のLinux環境にはDocker CLI/daemon、ROS 2、Gazeboがなく、Windows環境への接続も行っていない。
 - 実ROSバックエンドを起動して確認を試みたが、rclpy未導入で終了した。ログはgazebo_attempt.txt。
 - Gazeboの起動、アームの物理挙動、衝突、Windows側のPowerShell実行は未確認。
 - PowerShellスクリプトは作成・静的レビューのみ。実行済みとして扱わない。
-- GUI画像や『Gazeboで成功した』動画は生成していない。
+- この検証ではGazeboの画面確認・録画は行っていない。
 
-## 手元での確認
+## Gazeboでの確認手順
 00_SETUP → 01_START_GAZEBO → 02_CHECK。実際の結果はartifacts/latest_gazebo_check.jsonへ保存。6回すべてが成功した場合だけ6/6 CHECK PASSとなる。画面で方向の違い・干渉も確認する。
 
 モデルSHA-256：`bcff108233377e3635c6aaace12a85e8a90251649565f698c68de8d095b16033`

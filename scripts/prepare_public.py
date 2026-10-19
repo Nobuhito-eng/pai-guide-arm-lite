@@ -20,6 +20,6 @@ def main():
     for f in ROOT.glob('*.cmd'):
         shutil.copy2(f,out/f.name)
     print('Created: dist/pai-guide-arm-lite (local only; not uploaded).')
-    print('Review for personal information, then publish a NEW GitHub repository. Do not publish lecture PDFs or the old workshop repository.')
+    print('Included: application, model, data, documentation and licenses. Excluded: local logs, recordings and Git history.')
 
 if __name__=='__main__': main()
