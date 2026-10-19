@@ -1,0 +1,7 @@
+# Optional retraining only. NOT needed to run the provided model in the teaching container.
+# Original training was actually run on Python 3.13.5 with these versions.
+numpy==2.3.5
+scipy==1.17.0
+scikit-learn==1.8.0
+joblib==1.5.3
+threadpoolctl==3.6.0

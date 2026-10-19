@@ -1,0 +1,32 @@
+[
+  {
+    "id": "reception_1",
+    "text": "受付はどちらですか",
+    "expected": "reception"
+  },
+  {
+    "id": "exit_1",
+    "text": "出口へ案内してください",
+    "expected": "exit"
+  },
+  {
+    "id": "hold_1",
+    "text": "あちらをお願いします",
+    "expected": "hold"
+  },
+  {
+    "id": "reception_2",
+    "text": "受付はどちらですか",
+    "expected": "reception"
+  },
+  {
+    "id": "exit_2",
+    "text": "出口へ案内してください",
+    "expected": "exit"
+  },
+  {
+    "id": "hold_2",
+    "text": "あちらをお願いします",
+    "expected": "hold"
+  }
+]

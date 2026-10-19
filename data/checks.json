@@ -1,0 +1,77 @@
+[
+  {
+    "text": "受付はどちらですか",
+    "expected": "reception",
+    "purpose": "development_function_check_not_blind_test"
+  },
+  {
+    "text": "出口へ案内してください",
+    "expected": "exit",
+    "purpose": "development_function_check_not_blind_test"
+  },
+  {
+    "text": "あちらをお願いします",
+    "expected": "hold",
+    "purpose": "development_function_check_not_blind_test"
+  },
+  {
+    "text": "受付カウンターに行きたいのですが",
+    "expected": "reception",
+    "purpose": "development_function_check_not_blind_test"
+  },
+  {
+    "text": "外へ出る場所を教えてください",
+    "expected": "exit",
+    "purpose": "development_function_check_not_blind_test"
+  },
+  {
+    "text": "そちらをお願いできますか",
+    "expected": "hold",
+    "purpose": "development_function_check_not_blind_test"
+  },
+  {
+    "text": "受付へ行かないでください",
+    "expected": "hold",
+    "purpose": "development_function_check_not_blind_test"
+  },
+  {
+    "text": "出口には行きたくない",
+    "expected": "hold",
+    "purpose": "development_function_check_not_blind_test"
+  },
+  {
+    "text": "受付か出口に案内して",
+    "expected": "hold",
+    "purpose": "development_function_check_not_blind_test"
+  },
+  {
+    "text": "",
+    "expected": "hold",
+    "purpose": "development_function_check_not_blind_test"
+  },
+  {
+    "text": "zqxv12345",
+    "expected": "hold",
+    "purpose": "development_function_check_not_blind_test"
+  },
+  {
+    "text": "会議室を探しています",
+    "expected": "hold",
+    "purpose": "development_function_check_not_blind_test"
+  },
+  {
+    "text": "止めてください",
+    "expected": "hold",
+    "purpose": "development_function_check_not_blind_test"
+  },
+  {
+    "text": "受付と出口の両方",
+    "expected": "hold",
+    "purpose": "development_function_check_not_blind_test"
+  },
+  {
+    "text": "病院を教えて",
+    "expected": "hold",
+    "purpose": "development_function_check_not_blind_test"
+  }
+]

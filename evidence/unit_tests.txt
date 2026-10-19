@@ -1,0 +1,45 @@
+test_01_development_examples (test_core.ClassifierTests.test_01_development_examples) ... ok
+test_02_export_matches_sklearn_reference (test_core.ClassifierTests.test_02_export_matches_sklearn_reference) ... ok
+test_03_scores_sum_to_one (test_core.ClassifierTests.test_03_scores_sum_to_one) ... ok
+test_04_no_features_holds (test_core.ClassifierTests.test_04_no_features_holds) ... ok
+test_05_empty_holds (test_core.ClassifierTests.test_05_empty_holds) ... ok
+test_06_long_text_holds (test_core.ClassifierTests.test_06_long_text_holds) ... ok
+test_07_escape_sequence_holds (test_core.ClassifierTests.test_07_escape_sequence_holds) ... ok
+test_08_negated_reception_holds (test_core.ClassifierTests.test_08_negated_reception_holds) ... ok
+test_09_two_destinations_holds (test_core.ClassifierTests.test_09_two_destinations_holds) ... ok
+test_10_stop_holds (test_core.ClassifierTests.test_10_stop_holds) ... ok
+test_11_wrong_input_type (test_core.ClassifierTests.test_11_wrong_input_type) ... ok
+test_12_unicode_normalization (test_core.ClassifierTests.test_12_unicode_normalization) ... ok
+test_13_missing_model_raises (test_core.ClassifierTests.test_13_missing_model_raises) ... ok
+test_14_corrupt_model_raises (test_core.ClassifierTests.test_14_corrupt_model_raises) ... ok
+test_15_nan_model_raises (test_core.ClassifierTests.test_15_nan_model_raises) ... ok
+test_16_model_class_hold (test_core.ClassifierTests.test_16_model_class_hold) ... ok
+test_17_low_score_holds (test_core.ClassifierTests.test_17_low_score_holds) ... ok
+test_18_small_margin_holds (test_core.ClassifierTests.test_18_small_margin_holds) ... ok
+test_19_hold_has_no_motion (test_core.MotionLogicTests.test_19_hold_has_no_motion) ... ok
+test_20_two_destinations_distinct (test_core.MotionLogicTests.test_20_two_destinations_distinct) ... ok
+test_21_unknown_label_rejected (test_core.MotionLogicTests.test_21_unknown_label_rejected) ... ok
+test_22_urdf_limits_validated (test_core.MotionLogicTests.test_22_urdf_limits_validated) ... ok
+test_23_physical_hardware_rejected (test_core.MotionLogicTests.test_23_physical_hardware_rejected) ... ok
+test_24_missing_joint_rejected (test_core.MotionLogicTests.test_24_missing_joint_rejected) ... ok
+test_25_pose_outside_urdf_rejected (test_core.MotionLogicTests.test_25_pose_outside_urdf_rejected) ... ok
+test_26_action_success_needs_position (test_core.MotionLogicTests.test_26_action_success_needs_position) ... ok
+test_27_action_failure_never_passes (test_core.MotionLogicTests.test_27_action_failure_never_passes) ... ok
+test_28_motion_success (test_core.MotionLogicTests.test_28_motion_success) ... ok
+test_29_hold_needs_no_commands (test_core.MotionLogicTests.test_29_hold_needs_no_commands) ... ok
+test_30_hold_needs_no_drift (test_core.MotionLogicTests.test_30_hold_needs_no_drift) ... ok
+test_31_hold_needs_samples (test_core.MotionLogicTests.test_31_hold_needs_samples) ... ok
+test_32_hold_with_samples_passes (test_core.MotionLogicTests.test_32_hold_with_samples_passes) ... ok
+test_33_nan_state_rejected (test_core.MotionLogicTests.test_33_nan_state_rejected) ... ok
+test_34_mismatched_state_rejected (test_core.MotionLogicTests.test_34_mismatched_state_rejected) ... ok
+test_35_pose_config_rejects_large_angle (test_core.MotionLogicTests.test_35_pose_config_rejects_large_angle) ... ok
+test_36_no_ros_without_simulation_flag (test_core.MotionLogicTests.test_36_no_ros_without_simulation_flag) ... ok
+test_37_missing_result_is_draft (test_report.ReportTests.test_37_missing_result_is_draft) ... ok
+test_38_wrong_model_never_passes (test_report.ReportTests.test_38_wrong_model_never_passes) ... ok
+test_39_incomplete_run_never_passes (test_report.ReportTests.test_39_incomplete_run_never_passes) ... ok
+test_40_account_is_escaped (test_report.ReportTests.test_40_account_is_escaped) ... ok
+
+----------------------------------------------------------------------
+Ran 40 tests in 0.056s
+
+OK

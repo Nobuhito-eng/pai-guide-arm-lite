@@ -1,0 +1,377 @@
+[
+  {
+    "text": "受付はどこですか",
+    "label": "reception",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "受付へ案内してください",
+    "label": "reception",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "受付の場所を教えてください",
+    "label": "reception",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "受付を探しています",
+    "label": "reception",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "受付の方向を示してください",
+    "label": "reception",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "受付に行きたいです",
+    "label": "reception",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "手続きをしたいです",
+    "label": "reception",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "手続きの窓口を教えて",
+    "label": "reception",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "入館の手続きをしたい",
+    "label": "reception",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "訪問の受付をお願いします",
+    "label": "reception",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "来客受付まで案内して",
+    "label": "reception",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "受付カウンターはどちら",
+    "label": "reception",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "チェックインする場所はどこ",
+    "label": "reception",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "予約の受付をしたい",
+    "label": "reception",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "受付窓口に用事があります",
+    "label": "reception",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "まず受付を済ませたい",
+    "label": "reception",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "入館受付を探しています",
+    "label": "reception",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "総合受付を教えて",
+    "label": "reception",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "訪問先へ来たので受付をしたい",
+    "label": "reception",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "手続きをするところに行きたい",
+    "label": "reception",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "受付カウンターを指してください",
+    "label": "reception",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "受付に向かいたいです",
+    "label": "reception",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "申し込み手続きの窓口に行きたい",
+    "label": "reception",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "受け付けの場所はどちらですか",
+    "label": "reception",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "出口はどこですか",
+    "label": "exit",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "出口に案内してください",
+    "label": "exit",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "出口の方向を示してください",
+    "label": "exit",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "出口を探しています",
+    "label": "exit",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "出口に行きたいです",
+    "label": "exit",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "出口の場所を教えてください",
+    "label": "exit",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "建物から出たいです",
+    "label": "exit",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "外へ出たいです",
+    "label": "exit",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "帰りたいです",
+    "label": "exit",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "退館したいです",
+    "label": "exit",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "外に出るにはどちらですか",
+    "label": "exit",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "帰るための出口を教えて",
+    "label": "exit",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "退館口へ案内してください",
+    "label": "exit",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "建物の外へ案内して",
+    "label": "exit",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "帰る方向を教えてください",
+    "label": "exit",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "出るところはどこ",
+    "label": "exit",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "帰り道を教えて",
+    "label": "exit",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "用事が済んだので外に出たい",
+    "label": "exit",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "出口のある方向を指してください",
+    "label": "exit",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "外に向かいたいです",
+    "label": "exit",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "もう帰ります出口はどちら",
+    "label": "exit",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "退出する場所を教えて",
+    "label": "exit",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "建物の出口を指して",
+    "label": "exit",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "退館するところはどちらですか",
+    "label": "exit",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "あちらをお願いします",
+    "label": "hold",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "そちらに行きたい",
+    "label": "hold",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "そこを教えてください",
+    "label": "hold",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "どっちですか",
+    "label": "hold",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "あれをお願いします",
+    "label": "hold",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "案内してください",
+    "label": "hold",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "お願いします",
+    "label": "hold",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "こんにちは",
+    "label": "hold",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "おはようございます",
+    "label": "hold",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "ありがとう",
+    "label": "hold",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "場所がわかりません",
+    "label": "hold",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "ちょっと聞きたいことがあります",
+    "label": "hold",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "どこに行けばよいですか",
+    "label": "hold",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "助けてください",
+    "label": "hold",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "誰かいますか",
+    "label": "hold",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "わかりました",
+    "label": "hold",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "トイレはどこですか",
+    "label": "hold",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "会議室へ案内してください",
+    "label": "hold",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "食堂はどちらですか",
+    "label": "hold",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "荷物を運んでください",
+    "label": "hold",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "今日の天気を教えて",
+    "label": "hold",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "飲み物をください",
+    "label": "hold",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "駅はどちらですか",
+    "label": "hold",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "何か教えてください",
+    "label": "hold",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "受付はどちらですか",
+    "label": "reception",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "出口へ案内してください",
+    "label": "exit",
+    "source": "original_synthetic"
+  },
+  {
+    "text": "あの場所を案内して",
+    "label": "hold",
+    "source": "original_synthetic"
+  }
+]

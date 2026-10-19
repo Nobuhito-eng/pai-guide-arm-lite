@@ -1,0 +1,17 @@
+{
+  "joint_names": ["crane_plus_joint1", "crane_plus_joint2", "crane_plus_joint3", "crane_plus_joint4"],
+  "action_name": "/crane_plus_arm_controller/follow_joint_trajectory",
+  "command_topic": "/crane_plus_arm_controller/joint_trajectory",
+  "state_topic": "/joint_states",
+  "duration_s": 4.0,
+  "position_tolerance_rad": 0.05,
+  "hold_tolerance_rad": 0.02,
+  "freshness_s": 2.0,
+  "wall_timeout_s": 45.0,
+  "poses": {
+    "home": [0.0, 0.0, 0.0, 0.0],
+    "reception": [0.65, 0.35, -0.45, -0.2],
+    "exit": [-0.65, 0.35, -0.45, -0.2]
+  },
+  "note": "A=positive base rotation, B=negative. Candidate poses are inside a conservative envelope; Gazebo visual/collision check is still required. Not for physical robots."
+}

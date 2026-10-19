@@ -1,0 +1,261 @@
+{
+  "kind": "AI_ONLY_DEVELOPMENT_CHECK_NOT_GAZEBO",
+  "python": "3.13.5",
+  "model_sha256": "bcff108233377e3635c6aaace12a85e8a90251649565f698c68de8d095b16033",
+  "total": 15,
+  "passed": 15,
+  "rows": [
+    {
+      "text": "受付はどちらですか",
+      "expected": "reception",
+      "purpose": "development_function_check_not_blind_test",
+      "label": "reception",
+      "reason": "classified",
+      "scores": {
+        "exit": 0.07347786388708574,
+        "hold": 0.13932614469394347,
+        "reception": 0.7871959914189708
+      },
+      "top_label": "reception",
+      "margin": 0.6478698467250273,
+      "passed": true,
+      "training_exact_overlap": true,
+      "inference_ms": 0.593206999838003
+    },
+    {
+      "text": "出口へ案内してください",
+      "expected": "exit",
+      "purpose": "development_function_check_not_blind_test",
+      "label": "exit",
+      "reason": "classified",
+      "scores": {
+        "exit": 0.8026650799600762,
+        "hold": 0.1309603974726557,
+        "reception": 0.06637452256726818
+      },
+      "top_label": "exit",
+      "margin": 0.6717046824874204,
+      "passed": true,
+      "training_exact_overlap": true,
+      "inference_ms": 0.08449500001006527
+    },
+    {
+      "text": "あちらをお願いします",
+      "expected": "hold",
+      "purpose": "development_function_check_not_blind_test",
+      "label": "hold",
+      "reason": "model_hold",
+      "scores": {
+        "exit": 0.04599854126871168,
+        "hold": 0.8797008621310326,
+        "reception": 0.07430059660025579
+      },
+      "top_label": "hold",
+      "margin": 0.8054002655307768,
+      "passed": true,
+      "training_exact_overlap": true,
+      "inference_ms": 0.06505199962703045
+    },
+    {
+      "text": "受付カウンターに行きたいのですが",
+      "expected": "reception",
+      "purpose": "development_function_check_not_blind_test",
+      "label": "reception",
+      "reason": "classified",
+      "scores": {
+        "exit": 0.043226531410519756,
+        "hold": 0.062446098261792204,
+        "reception": 0.894327370327688
+      },
+      "top_label": "reception",
+      "margin": 0.8318812720658959,
+      "passed": true,
+      "training_exact_overlap": false,
+      "inference_ms": 0.06695399997624918
+    },
+    {
+      "text": "外へ出る場所を教えてください",
+      "expected": "exit",
+      "purpose": "development_function_check_not_blind_test",
+      "label": "exit",
+      "reason": "classified",
+      "scores": {
+        "exit": 0.6844896499096269,
+        "hold": 0.18383734207022576,
+        "reception": 0.13167300802014734
+      },
+      "top_label": "exit",
+      "margin": 0.5006523078394012,
+      "passed": true,
+      "training_exact_overlap": false,
+      "inference_ms": 0.06274599991229479
+    },
+    {
+      "text": "そちらをお願いできますか",
+      "expected": "hold",
+      "purpose": "development_function_check_not_blind_test",
+      "label": "hold",
+      "reason": "model_hold",
+      "scores": {
+        "exit": 0.0864402508028541,
+        "hold": 0.821249876717538,
+        "reception": 0.09230987247960788
+      },
+      "top_label": "hold",
+      "margin": 0.7289400042379302,
+      "passed": true,
+      "training_exact_overlap": false,
+      "inference_ms": 0.04949200001647114
+    },
+    {
+      "text": "受付へ行かないでください",
+      "expected": "hold",
+      "purpose": "development_function_check_not_blind_test",
+      "label": "hold",
+      "reason": "stop_or_negation",
+      "scores": {
+        "exit": 0.11913891760603669,
+        "hold": 0.3731075923812551,
+        "reception": 0.5077534900127082
+      },
+      "top_label": "reception",
+      "margin": 0.13464589763145307,
+      "passed": true,
+      "training_exact_overlap": false,
+      "inference_ms": 0.03033399980267859
+    },
+    {
+      "text": "出口には行きたくない",
+      "expected": "hold",
+      "purpose": "development_function_check_not_blind_test",
+      "label": "hold",
+      "reason": "stop_or_negation",
+      "scores": {
+        "exit": 0.736263710871906,
+        "hold": 0.1244825538472299,
+        "reception": 0.13925373528086413
+      },
+      "top_label": "exit",
+      "margin": 0.5970099755910419,
+      "passed": true,
+      "training_exact_overlap": false,
+      "inference_ms": 0.02425399998173816
+    },
+    {
+      "text": "受付か出口に案内して",
+      "expected": "hold",
+      "purpose": "development_function_check_not_blind_test",
+      "label": "hold",
+      "reason": "multiple_destinations",
+      "scores": {
+        "exit": 0.7956723987519133,
+        "hold": 0.07155147536193755,
+        "reception": 0.1327761258861491
+      },
+      "top_label": "exit",
+      "margin": 0.6628962728657642,
+      "passed": true,
+      "training_exact_overlap": false,
+      "inference_ms": 0.030191999940143432
+    },
+    {
+      "text": "",
+      "expected": "hold",
+      "purpose": "development_function_check_not_blind_test",
+      "label": "hold",
+      "reason": "empty",
+      "scores": {},
+      "top_label": null,
+      "margin": 0.0,
+      "passed": true,
+      "training_exact_overlap": false,
+      "inference_ms": 0.008132999937515706
+    },
+    {
+      "text": "zqxv12345",
+      "expected": "hold",
+      "purpose": "development_function_check_not_blind_test",
+      "label": "hold",
+      "reason": "unknown",
+      "scores": {
+        "exit": 0.27983164849511954,
+        "hold": 0.4287674542189539,
+        "reception": 0.29140089728592666
+      },
+      "top_label": "hold",
+      "margin": 0.13736655693302724,
+      "passed": true,
+      "training_exact_overlap": false,
+      "inference_ms": 0.029352000183280325
+    },
+    {
+      "text": "会議室を探しています",
+      "expected": "hold",
+      "purpose": "development_function_check_not_blind_test",
+      "label": "hold",
+      "reason": "low_score",
+      "scores": {
+        "exit": 0.3096240299444126,
+        "hold": 0.29172653770176177,
+        "reception": 0.39864943235382566
+      },
+      "top_label": "reception",
+      "margin": 0.08902540240941303,
+      "passed": true,
+      "training_exact_overlap": false,
+      "inference_ms": 0.04677800006902544
+    },
+    {
+      "text": "止めてください",
+      "expected": "hold",
+      "purpose": "development_function_check_not_blind_test",
+      "label": "hold",
+      "reason": "stop_or_negation",
+      "scores": {
+        "exit": 0.1404435472811348,
+        "hold": 0.7552809632179063,
+        "reception": 0.10427548950095902
+      },
+      "top_label": "hold",
+      "margin": 0.6148374159367714,
+      "passed": true,
+      "training_exact_overlap": false,
+      "inference_ms": 0.05462099989017588
+    },
+    {
+      "text": "受付と出口の両方",
+      "expected": "hold",
+      "purpose": "development_function_check_not_blind_test",
+      "label": "hold",
+      "reason": "multiple_destinations",
+      "scores": {
+        "exit": 0.7526662054087857,
+        "hold": 0.04940517906924646,
+        "reception": 0.1979286155219678
+      },
+      "top_label": "exit",
+      "margin": 0.5547375898868179,
+      "passed": true,
+      "training_exact_overlap": false,
+      "inference_ms": 0.02403999997113715
+    },
+    {
+      "text": "病院を教えて",
+      "expected": "hold",
+      "purpose": "development_function_check_not_blind_test",
+      "label": "hold",
+      "reason": "low_score",
+      "scores": {
+        "exit": 0.5922665276033476,
+        "hold": 0.1966147536290197,
+        "reception": 0.21111871876763263
+      },
+      "top_label": "exit",
+      "margin": 0.381147808835715,
+      "passed": true,
+      "training_exact_overlap": false,
+      "inference_ms": 0.031829999898036476
+    }
+  ],
+  "note": "Synthetic development examples. Not a blind accuracy or physical safety evaluation."
+}

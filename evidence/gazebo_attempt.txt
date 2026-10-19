@@ -1,0 +1,4 @@
+ERROR: ModuleNotFoundError: No module named 'rclpy'
+失敗をPASSとして扱いません。READMEの切り分けとartifactsの記録を確認してください。
+結果ファイル: artifacts/gazebo/20261014T142618944651Z_doctor.json
+Actual exit code: 2

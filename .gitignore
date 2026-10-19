@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+artifacts/
+dist/
+*.log
+*.mp4
+*.rrd
+*.bag
+*.db3
+*.pem
+*.key
